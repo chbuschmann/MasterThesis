@@ -1,35 +1,58 @@
+%% Reviewed 23 jan 2016
 %----------------------------------------------------------------------------------------
 % PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
-\documentclass[a4paper,sfsidenotes,notitlepage,justified]{tufte-book} % Use the tufte-book class which in turn uses the tufte-common class
+\documentclass[a4paper,sfsidenotes,notitlepage,justified,nobib]{tufte-book}
 
-%\usepackage[english]{babel} % hyphenations
-%\usepackage[utf8]{inputenc}
-%\usepackage[T1]{fontenc}
-\usepackage{fontspec} % for LuaLaTeX
-%\hypersetup{colorlinks} % Comment this line if you don't wish to have colored links
-\usepackage{microtype} % Improves character and word spacing
-\usepackage{polyglossia}
-\setdefaultlanguage{english}
-\usepackage{lipsum} % Inserts dummy text
-\usepackage{scrtime} % Prints the time with \thistime
-\usepackage[style=english]{csquotes} % Quotes!
-\usepackage[printonlyused]{acronym}
-%\usepackage{layouts}
+%% Backend
+\usepackage{fontspec}
+\usepackage[english]{babel}
+\usepackage[autostyle]{csquotes}
+\usepackage{graphicx}
+    \graphicspath{{gfx/}}
+
+%% Commands for cites to work with biblatex
+\usepackage{hyperref}
+% \hypersetup{colorlinks} % Comment this line if you don't wish to have colored links
+\usepackage{hyphenat}
+
+%% Table stuff
 \usepackage{booktabs} % Better horizontal rules in tables
 \usepackage{tabularx} % Table control
-\usepackage{pdflscape} % rotate pages
-\usepackage{mathtools}
-\usepackage{xpiano}
-\usepackage{lilyglyphs}
-%\usepackage[firstpage]{draftwatermark}
-\usepackage{pdfpages} % insert pdf's 
 \usepackage{multirow} % multiple rows and columns
-\usepackage{graphicx} % Needed to insert images into the document
-\graphicspath{{gfx/}} % Sets the default location of pictures
+
+%% Typography
+\usepackage{microtype} % Improves character and word spacing.
 \usepackage{xspace} % Used for printing a trailing space better than using a tilde (~) using the \xspace command
-%\usepackage{makeidx} % Used to generate the index
-%\makeindex % Generate the index which is printed at the end of the document
+
+%% Music
+\usepackage{xpiano}
+    \keyboardsetup{
+      numbers,
+      single,
+      color=gray,
+      size=0.6cm,
+      ratio=0.67,
+      font=\small,
+      10=$t$, 11=$e$,
+    }
+\usepackage{lilyglyphs}
+
+%% PDF
+\usepackage{pdfpages} % insert pdf's 
+\usepackage{pdflscape} % rotate pages
+
+%% Math
+\usepackage{mathtools}
+
+%% Utilities
+\usepackage{lipsum} % Inserts dummy text
+\usepackage{scrtime} % Prints the time with \thistime
+% \usepackage[firstpage]{draftwatermark}
+\usepackage[printonlyused]{acronym}
+% \usepackage{makeidx} % Used to generate the index
+% \makeindex % Generate the index which is printed at the end of the document
+
 \usepackage{listings}
 \definecolor{backcolour}{rgb}{0.95,0.95,0.92}
 \lstdefinestyle{mystyle}
@@ -50,9 +73,25 @@
 }
 \lstset{style=mystyle}
 
+%% Bibliography APA 6th edition
+\usepackage[style=apa,backend=biber,language=english,natbib=true]{biblatex}
+    \DeclareLanguageMapping{english}{english-apa}
+    \addbibresource{Bibliography.bib}
+
+%%
+\setcounter{secnumdepth}{0}
+\setcounter{tocdepth}{2}
+\usepackage{tocbibind}
+
 %----------------------------------------------------------------------------------------
-% SHORTCUTS
+% Custom Commands
 %----------------------------------------------------------------------------------------
+%% Tufte-Latex Spacing Work around for XeLaTeX/LuaLaTeX. Turn off when using a different class
+\renewcommand{\allcapsspacing}[1]{{\addfontfeature{LetterSpace=20.0}#1}}
+\renewcommand{\smallcapsspacing}[1]{{\addfontfeature{LetterSpace=5.0}#1}}
+\renewcommand{\textsc}[1]{\smallcapsspacing{\textsmallcaps{#1}}}
+\renewcommand{\smallcaps}[1]{\smallcapsspacing{\scshape\MakeTextLowercase{#1}}}
+
 \newcommand{\blankpage}{\newpage\hbox{}\thispagestyle{empty}\newpage} % Command to insert a blank page
 
 \newcommand{\tinysharpx}[1][0.10ex]{\hspace*{#1}\sharp[scale=.65,raise=.1]\hspace*{#1}}
@@ -98,37 +137,34 @@
 %----------------------------------------------------------------------------------------
 \begin{document}
 \frontmatter
-%\SetWatermarkText{\today \(\cdot\) \thistime}
-%\SetWatermarkScale{0.5}
+% \SetWatermarkText{\today \(\cdot\) \thistime}
+% \SetWatermarkScale{0.5}
 %----------------------------------------------------------------------------------------
 \includepdf{pdf/Forside.pdf}
 \blankpage
 \include{FrontBackmatter/title}
 \include{FrontBackmatter/copyright}
-%\include{FrontBackmatter/abstract}
+\include{FrontBackmatter/abstract}
 \include{FrontBackmatter/orthography_and_examples}
-
 \tableofcontents \thispagestyle{empty}
-
 \listoffigures
 \listoftables
 \include{FrontBackmatter/acronyms}
-
 \include{FrontBackmatter/acknowledgments}
 \cleardoublepage\include{FrontBackmatter/tea}
 %----------------------------------------------------------------------------------------
 \mainmatter
-%\fancyfoot[C]{\framebox{The Musical Conventions of Star Trek~\(\cdot\)~DRAFT~\(\cdot\)~\today~\(\cdot\)~\thistime}} % for drafting details in footer
+% \fancyfoot[C]{\framebox{The Musical Conventions of Star Trek~\(\cdot\)~REVISION~\(\cdot\)~\today~\(\cdot\)~\thistime}} % for drafting details in footer
 
 %----------------------------------------------------------------------------------------
-%	Part 1
+%   Part 1
 %----------------------------------------------------------------------------------------
-\include{mainmatter/part_1/00.introduction}
-\include{mainmatter/part_1/01.star.trek}
-\include{mainmatter/part_1/01.The.analysis}
-\include{mainmatter/part_1/01.nrt}
+\include{mainmatter/part_1/00.introduction} %ferdig
+\include{mainmatter/part_1/01.star.trek} %ferdig
+\include{mainmatter/part_1/01.The.analysis} %ferdig
+\include{mainmatter/part_1/01.nrt} %ferdig
 %----------------------------------------------------------------------------------------
-%	Part 2
+%   Part 2
 %----------------------------------------------------------------------------------------
 \include{mainmatter/part_2/ST1/02.star.trek.01.overture}
 \include{mainmatter/part_2/ST1/02.star.trek.01.main.title}
@@ -151,25 +187,21 @@
 \include{mainmatter/part_2/ST12/02.star.trek.12.london.falling}
 
 %----------------------------------------------------------------------------------------
-%	Part 3
+%   Part 3
 %----------------------------------------------------------------------------------------
 \include{mainmatter/part_3/03.the.musical.evolution}
 \include{mainmatter/part_3/03.conclution} 
 
 %----------------------------------------------------------------------------------------
-%	Backmatter
+%   Backmatter
 %----------------------------------------------------------------------------------------
 \backmatter
 
-\bibliography{Bibliography} % Use the bibliography.bib file for the bibliography
-\bibliographystyle{plainnat} % Uses the plainnat style of referencing
-%\nocite{*} % prints all bib
+\printbibliography[heading=bibintoc]
 
 \appendix
 \include{FrontBackmatter/creativecommons}
 \include{FrontBackmatter/colophon}
-%\include{FrontBackmatter/layout}
-
 
 %----------------------------------------------------------------------------------------
 %\printindex % Print the index at the very end of the document
