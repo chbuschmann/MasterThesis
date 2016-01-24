@@ -1,0 +1,177 @@
+%----------------------------------------------------------------------------------------
+% PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+\documentclass[a4paper,sfsidenotes,notitlepage,justified]{tufte-book} % Use the tufte-book class which in turn uses the tufte-common class
+
+%\usepackage[english]{babel} % hyphenations
+%\usepackage[utf8]{inputenc}
+%\usepackage[T1]{fontenc}
+\usepackage{fontspec} % for LuaLaTeX
+%\hypersetup{colorlinks} % Comment this line if you don't wish to have colored links
+\usepackage{microtype} % Improves character and word spacing
+\usepackage{polyglossia}
+\setdefaultlanguage{english}
+\usepackage{lipsum} % Inserts dummy text
+\usepackage{scrtime} % Prints the time with \thistime
+\usepackage[style=english]{csquotes} % Quotes!
+\usepackage[printonlyused]{acronym}
+%\usepackage{layouts}
+\usepackage{booktabs} % Better horizontal rules in tables
+\usepackage{tabularx} % Table control
+\usepackage{pdflscape} % rotate pages
+\usepackage{mathtools}
+\usepackage{xpiano}
+\usepackage{lilyglyphs}
+%\usepackage[firstpage]{draftwatermark}
+\usepackage{pdfpages} % insert pdf's 
+\usepackage{multirow} % multiple rows and columns
+\usepackage{graphicx} % Needed to insert images into the document
+\graphicspath{{gfx/}} % Sets the default location of pictures
+\usepackage{xspace} % Used for printing a trailing space better than using a tilde (~) using the \xspace command
+%\usepackage{makeidx} % Used to generate the index
+%\makeindex % Generate the index which is printed at the end of the document
+\usepackage{listings}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+\lstdefinestyle{mystyle}
+{
+    backgroundcolor=\color{backcolour},   
+    numberstyle=\small,
+    basicstyle=\normalsize\ttfamily,
+    breakatwhitespace=false,         
+    breaklines=true,
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+\lstset{style=mystyle}
+
+%----------------------------------------------------------------------------------------
+% SHORTCUTS
+%----------------------------------------------------------------------------------------
+\newcommand{\blankpage}{\newpage\hbox{}\thispagestyle{empty}\newpage} % Command to insert a blank page
+
+\newcommand{\tinysharpx}[1][0.10ex]{\hspace*{#1}\sharp[scale=.65,raise=.1]\hspace*{#1}}
+\newcommand{\tinyflatx}[1][0.10ex]{\hspace*{#1}\flat[scale=.6,raise=.1]\hspace*{#1}}
+\newcommand{\flatx}[1][0.18ex]{\hspace*{#1}\flat\hspace*{#1}}
+\newcommand{\sharpx}[1][0.18ex]{\hspace*{#1}\sharp\hspace*{#1}}
+
+\newcommand\bigchord[4]{\(\text{#1}^{#2}\mkern-3mu\relax(\mathop{}\limits\mkern-3mu\relax{}^{#3}_{#4})\)}
+\newcommand\chord[2]{\(\text{#1}^{#2}\)}
+
+\newcommand{\aflat}{A\(\flatx\)\xspace}
+\newcommand{\bflat}{B\(\flatx\)\xspace}
+\newcommand{\cflat}{C\(\flatx\)\xspace}
+\newcommand{\dflat}{D\(\flatx\)\xspace}
+\newcommand{\eflat}{E\(\flatx\)\xspace}
+\newcommand{\fflat}{F\(\flatx\)\xspace}
+\newcommand{\gflat}{G\(\flatx\)\xspace}
+
+\newcommand{\aflatm}{A\(\flatx\)m\xspace}
+\newcommand{\bflatm}{B\(\flatx\)m\xspace}
+\newcommand{\cflatm}{C\(\flatx\)m\xspace}
+\newcommand{\dflatm}{D\(\flatx\)m\xspace}
+\newcommand{\eflatm}{E\(\flatx\)m\xspace}
+\newcommand{\fflatm}{F\(\flatx\)m\xspace}
+\newcommand{\gflatm}{G\(\flatx\)m\xspace}
+
+\newcommand{\aiss}{A\(\sharpx\)\xspace}
+\newcommand{\biss}{B\(\sharpx\)\xspace}
+\newcommand{\ciss}{C\(\sharpx\)\xspace}
+\newcommand{\diss}{D\(\sharpx\)\xspace}
+\newcommand{\eiss}{E\(\sharpx\)\xspace}
+\newcommand{\fiss}{F\(\sharpx\)\xspace}
+\newcommand{\giss}{G\(\sharpx\)\xspace}
+
+\newcommand{\aissm}{A\(\sharpx\)m\xspace}
+\newcommand{\bissm}{B\(\sharpx\)m\xspace}
+\newcommand{\cissm}{C\(\sharpx\)m\xspace}
+\newcommand{\dissm}{D\(\sharpx\)m\xspace}
+\newcommand{\eissm}{E\(\sharpx\)m\xspace}
+\newcommand{\fissm}{F\(\sharpx\)m\xspace}
+\newcommand{\gissm}{G\(\sharpx\)m\xspace}
+
+%----------------------------------------------------------------------------------------
+\begin{document}
+\frontmatter
+%\SetWatermarkText{\today \(\cdot\) \thistime}
+%\SetWatermarkScale{0.5}
+%----------------------------------------------------------------------------------------
+\includepdf{pdf/Forside.pdf}
+\blankpage
+\include{FrontBackmatter/title}
+\include{FrontBackmatter/copyright}
+%\include{FrontBackmatter/abstract}
+\include{FrontBackmatter/orthography_and_examples}
+
+\tableofcontents \thispagestyle{empty}
+
+\listoffigures
+\listoftables
+\include{FrontBackmatter/acronyms}
+
+\include{FrontBackmatter/acknowledgments}
+\cleardoublepage\include{FrontBackmatter/tea}
+%----------------------------------------------------------------------------------------
+\mainmatter
+%\fancyfoot[C]{\framebox{The Musical Conventions of Star Trek~\(\cdot\)~DRAFT~\(\cdot\)~\today~\(\cdot\)~\thistime}} % for drafting details in footer
+
+%----------------------------------------------------------------------------------------
+%	Part 1
+%----------------------------------------------------------------------------------------
+\include{mainmatter/part_1/00.introduction}
+\include{mainmatter/part_1/01.star.trek}
+\include{mainmatter/part_1/01.The.analysis}
+\include{mainmatter/part_1/01.nrt}
+%----------------------------------------------------------------------------------------
+%	Part 2
+%----------------------------------------------------------------------------------------
+\include{mainmatter/part_2/ST1/02.star.trek.01.overture}
+\include{mainmatter/part_2/ST1/02.star.trek.01.main.title}
+\include{mainmatter/part_2/ST1/02.star.trek.01.leaving.drydock}
+
+\include{mainmatter/part_2/ST2/02.star.trek.02.main.title}
+\include{mainmatter/part_2/ST2/02.star.trek.02.enterprise.clears.moorings}
+
+\include{mainmatter/part_2/ST8/02.star.trek.08.first.contact.main.title}
+\include{mainmatter/part_2/ST8/02.star.trek.08.first.contact.red.alert}
+
+\include{mainmatter/part_2/ST10/02.star.trek.10.nemesis.remus}
+\include{mainmatter/part_2/ST10/02.star.trek.10.nemesis.attack.pattern}
+
+\include{mainmatter/part_2/ST11/02.star.trek.11.star.trek}
+\include{mainmatter/part_2/ST11/02.star.trek.11.main.title}
+\include{mainmatter/part_2/ST11/02.star.trek.11.hangar.management}
+
+\include{mainmatter/part_2/ST12/02.star.trek.12.logos}
+\include{mainmatter/part_2/ST12/02.star.trek.12.london.falling}
+
+%----------------------------------------------------------------------------------------
+%	Part 3
+%----------------------------------------------------------------------------------------
+\include{mainmatter/part_3/03.the.musical.evolution}
+\include{mainmatter/part_3/03.conclution} 
+
+%----------------------------------------------------------------------------------------
+%	Backmatter
+%----------------------------------------------------------------------------------------
+\backmatter
+
+\bibliography{Bibliography} % Use the bibliography.bib file for the bibliography
+\bibliographystyle{plainnat} % Uses the plainnat style of referencing
+%\nocite{*} % prints all bib
+
+\appendix
+\include{FrontBackmatter/creativecommons}
+\include{FrontBackmatter/colophon}
+%\include{FrontBackmatter/layout}
+
+
+%----------------------------------------------------------------------------------------
+%\printindex % Print the index at the very end of the document
+
+\end{document}
