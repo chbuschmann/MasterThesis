@@ -39,7 +39,7 @@
 \usepackage{lilyglyphs}
 
 %% PDF
-\usepackage{pdfpages} % insert pdf's 
+\usepackage{pdfpages} % insert pdf's
 \usepackage{pdflscape} % rotate pages
 
 %% Math
@@ -57,18 +57,18 @@
 \definecolor{backcolour}{rgb}{0.95,0.95,0.92}
 \lstdefinestyle{mystyle}
 {
-    backgroundcolor=\color{backcolour},   
+    backgroundcolor=\color{backcolour},
     numberstyle=\small,
     basicstyle=\normalsize\ttfamily,
-    breakatwhitespace=false,         
+    breakatwhitespace=false,
     breaklines=true,
-    captionpos=b,                    
-    keepspaces=true,                 
-    numbers=left,                    
-    numbersep=5pt,                  
-    showspaces=false,                
+    captionpos=b,
+    keepspaces=true,
+    numbers=left,
+    numbersep=5pt,
+    showspaces=false,
     showstringspaces=false,
-    showtabs=false,                  
+    showtabs=false,
     tabsize=2
 }
 \lstset{style=mystyle}
@@ -137,8 +137,6 @@
 %----------------------------------------------------------------------------------------
 \begin{document}
 \frontmatter
-% \SetWatermarkText{\today \(\cdot\) \thistime}
-% \SetWatermarkScale{0.5}
 %----------------------------------------------------------------------------------------
 \includepdf{pdf/Forside.pdf}
 \blankpage
@@ -154,8 +152,6 @@
 \cleardoublepage\include{FrontBackmatter/tea}
 %----------------------------------------------------------------------------------------
 \mainmatter
-% \fancyfoot[C]{\framebox{The Musical Conventions of Star Trek~\(\cdot\)~REVISION~\(\cdot\)~\today~\(\cdot\)~\thistime}} % for drafting details in footer
-
 %----------------------------------------------------------------------------------------
 %   Part 1
 %----------------------------------------------------------------------------------------
@@ -190,7 +186,7 @@
 %   Part 3
 %----------------------------------------------------------------------------------------
 \include{mainmatter/part_3/03.the.musical.evolution}
-\include{mainmatter/part_3/03.conclution} 
+\include{mainmatter/part_3/03.conclution}
 
 %----------------------------------------------------------------------------------------
 %   Backmatter
@@ -204,6 +200,4 @@
 \include{FrontBackmatter/colophon}
 
 %----------------------------------------------------------------------------------------
-%\printindex % Print the index at the very end of the document
-
 \end{document}
