@@ -33,9 +33,9 @@
     \keyboardsetup{
       numbers,
       single,
-      color=gray,
+      color=DarkGreen,
       size=0.6cm,
-      ratio=0.67,
+      ratio=0.67,w
       font=\small,
       10=$t$, 11=$e$,
     }
@@ -143,25 +143,24 @@
 % \SetWatermarkText{\today \(\cdot\) \thistime}
 % \SetWatermarkScale{0.5}
 %----------------------------------------------------------------------------------------
-\includepdf{pdf/Forside.pdf}
-\blankpage
+% \includepdf{pdf/Forside.pdf}
+% \blankpage
 \include{FrontBackmatter/title}
 \include{FrontBackmatter/copyright}
 \include{FrontBackmatter/abstract}
 \include{FrontBackmatter/orthography_and_examples}
+{\hypersetup{linkcolor=black}
 \tableofcontents \thispagestyle{empty}
 \listoffigures
-\listoftables
+\listoftables}
 \include{FrontBackmatter/acronyms}
 \include{FrontBackmatter/acknowledgments}
 \cleardoublepage\include{FrontBackmatter/tea}
 %----------------------------------------------------------------------------------------
-\mainmatter
-% \fancyfoot[C]{\framebox{The Musical Conventions of Star Trek~\(\cdot\)~REVISION~\(\cdot\)~\today~\(\cdot\)~\thistime}} % for drafting details in footer
-
-%----------------------------------------------------------------------------------------
 %   Part 1
 %----------------------------------------------------------------------------------------
+\mainmatter
+% \fancyfoot[C]{\framebox{The Musical Conventions of Star Trek~\(\cdot\)~REVISION~\(\cdot\)~\today~\(\cdot\)~\thistime}} % for drafting details in footer
 \include{mainmatter/part_1/00.introduction}
 \include{mainmatter/part_1/01.star.trek}
 \include{mainmatter/part_1/01.The.analysis}
