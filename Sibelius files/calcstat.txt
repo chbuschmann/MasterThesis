@@ -1,0 +1,1335 @@
+*** Calculate Statistics: Count of objects in scores in folder:  /Volumes/Dokumenter/Dropbox/Noter/Sibelius/Star Trek/ ***
+ 
+*** Calculate Statistics: Count of objects in score:  /Volumes/Dokumenter/Dropbox/Noter/Sibelius/Star Trek/analyse.sib ***
+ 
+        1	Pages
+        1	Systems
+        1	Staves
+        4	Bars per Staff
+        4	Bars in All Staves
+        3	Empty Bars (No Notes)
+        0	Non-Bar-Rest Empty Bars
+        1	Bars Containing Notes
+        0	Irregular Bars
+        9	Total Noteheads
+        0	Single Notes
+        3	Chords
+        3	Single Notes *or* Chords
+        0	Grace Notes
+        0	Tuplets
+        4	Rests (includes bar rests)
+        2	Hidden Objects
+        0	Hairpins
+        0	Highlights
+        0	Slurs
+        0	Other Lines
+        0	Expression Text
+        0	Technique Text
+        3	Other Staff Text
+        0	Tempo Text
+        0	Metronome Marks
+        2	Other System Text
+        0	Lyrics
+        0	Legacy Chord Symbols
+        0	Chord Symbols
+        0	Key Signature Changes
+        0	Time Signature Changes
+        0	Clef Changes
+        0	Rehearsal Marks
+        0	Bar Number Changes
+        0	Instrument Changes
+        0	Symbols
+        0	Graphics
+        1	Special Barlines
+        0	Other Objects
+ 
+Other Staff Text By Style
+        3	Roman numerals
+
+Other System Text By Style
+        1	Instrument name at top left
+        1	Header (after first page)
+
+ 
+*** Calculate Statistics: Count of objects in score:  /Volumes/Dokumenter/Dropbox/Noter/Sibelius/Star Trek/Ilia's Theme.sib ***
+ 
+        1	Pages
+        7	Systems
+        1	Staves
+      37	Bars per Staff
+      37	Bars in All Staves
+        0	Empty Bars (No Notes)
+        0	Non-Bar-Rest Empty Bars
+      37	Bars Containing Notes
+        0	Irregular Bars
+    106	Total Noteheads
+    106	Single Notes
+        0	Chords
+    106	Single Notes *or* Chords
+        0	Grace Notes
+        1	Tuplets
+      11	Rests (includes bar rests)
+        4	Hidden Objects
+        0	Hairpins
+        0	Highlights
+        0	Slurs
+        0	Other Lines
+        1	Expression Text
+        3	Technique Text
+      33	Other Staff Text
+        0	Tempo Text
+        0	Metronome Marks
+        8	Other System Text
+        0	Lyrics
+        0	Legacy Chord Symbols
+      37	Chord Symbols
+        0	Key Signature Changes
+        1	Time Signature Changes
+        0	Clef Changes
+        0	Rehearsal Marks
+        0	Bar Number Changes
+        0	Instrument Changes
+        0	Symbols
+        0	Graphics
+        4	Special Barlines
+        0	Other Objects
+ 
+Other Staff Text By Style
+        2	Boxed text
+      31	Roman numerals
+
+Other System Text By Style
+        1	Instrument name at top left
+        1	Header (after first page)
+        1	Composer
+        1	Title
+        4	Rehearsal marks
+
+ 
+*** Calculate Statistics: Count of objects in score:  /Volumes/Dokumenter/Dropbox/Noter/Sibelius/Star Trek/ilias theme.sib ***
+ 
+        1	Pages
+        2	Systems
+        1	Staves
+      15	Bars per Staff
+      15	Bars in All Staves
+        0	Empty Bars (No Notes)
+        0	Non-Bar-Rest Empty Bars
+      15	Bars Containing Notes
+        0	Irregular Bars
+      51	Total Noteheads
+        0	Single Notes
+      17	Chords
+      17	Single Notes *or* Chords
+        0	Grace Notes
+        0	Tuplets
+        0	Rests (includes bar rests)
+        2	Hidden Objects
+        0	Hairpins
+        0	Highlights
+        1	Slurs
+        0	Other Lines
+        0	Expression Text
+      11	Technique Text
+        0	Other Staff Text
+        0	Tempo Text
+        0	Metronome Marks
+        2	Other System Text
+        0	Lyrics
+        0	Legacy Chord Symbols
+      16	Chord Symbols
+        0	Key Signature Changes
+        0	Time Signature Changes
+        0	Clef Changes
+        0	Rehearsal Marks
+        0	Bar Number Changes
+        0	Instrument Changes
+        0	Symbols
+        0	Graphics
+        4	Special Barlines
+        0	Other Objects
+ 
+Other System Text By Style
+        1	Instrument name at top left
+        1	Header (after first page)
+
+ 
+*** Calculate Statistics: Count of objects in score:  /Volumes/Dokumenter/Dropbox/Noter/Sibelius/Star Trek/main theme.sib ***
+ 
+        1	Pages
+        2	Systems
+        1	Staves
+        8	Bars per Staff
+        8	Bars in All Staves
+        0	Empty Bars (No Notes)
+        0	Non-Bar-Rest Empty Bars
+        8	Bars Containing Notes
+        0	Irregular Bars
+      22	Total Noteheads
+      22	Single Notes
+        0	Chords
+      22	Single Notes *or* Chords
+        0	Grace Notes
+        0	Tuplets
+        1	Rests (includes bar rests)
+        2	Hidden Objects
+        0	Hairpins
+        0	Highlights
+        0	Slurs
+        0	Other Lines
+        0	Expression Text
+        0	Technique Text
+        0	Other Staff Text
+        0	Tempo Text
+        0	Metronome Marks
+        3	Other System Text
+        0	Lyrics
+        0	Legacy Chord Symbols
+        9	Chord Symbols
+        0	Key Signature Changes
+        1	Time Signature Changes
+        0	Clef Changes
+        0	Rehearsal Marks
+        0	Bar Number Changes
+        0	Instrument Changes
+        0	Symbols
+        0	Graphics
+        1	Special Barlines
+        0	Other Objects
+ 
+Other System Text By Style
+        1	Title
+        1	Instrument name at top left
+        1	Header (after first page)
+
+ 
+*** Calculate Statistics: Count of objects in score:  /Volumes/Dokumenter/Dropbox/Noter/Sibelius/Star Trek/PRL.sib ***
+ 
+        1	Pages
+        1	Systems
+        7	Staves
+        2	Bars per Staff
+      14	Bars in All Staves
+        7	Empty Bars (No Notes)
+        0	Non-Bar-Rest Empty Bars
+        7	Bars Containing Notes
+        0	Irregular Bars
+      42	Total Noteheads
+        0	Single Notes
+      14	Chords
+      14	Single Notes *or* Chords
+        0	Grace Notes
+        0	Tuplets
+        7	Rests (includes bar rests)
+        3	Hidden Objects
+        0	Hairpins
+        0	Highlights
+        0	Slurs
+      12	Other Lines
+        0	Expression Text
+        0	Technique Text
+        0	Other Staff Text
+        0	Tempo Text
+        0	Metronome Marks
+        2	Other System Text
+        7	Lyrics
+        0	Legacy Chord Symbols
+        0	Chord Symbols
+        0	Key Signature Changes
+        1	Time Signature Changes
+        0	Clef Changes
+        0	Rehearsal Marks
+        0	Bar Number Changes
+        0	Instrument Changes
+        0	Symbols
+        0	Graphics
+        2	Special Barlines
+        0	Other Objects
+ 
+Other System Text By Style
+        1	Instrument name at top left
+        1	Header (after first page)
+
+Other Lines By Style
+      12	Arrow
+
+ 
+*** Calculate Statistics: Count of objects in score:  /Volumes/Dokumenter/Dropbox/Noter/Sibelius/Star Trek/Red Alert Shencker.sib ***
+ 
+        1	Pages
+        1	Systems
+        1	Staves
+        8	Bars per Staff
+        8	Bars in All Staves
+        0	Empty Bars (No Notes)
+        0	Non-Bar-Rest Empty Bars
+        8	Bars Containing Notes
+        0	Irregular Bars
+      30	Total Noteheads
+      30	Single Notes
+        0	Chords
+      30	Single Notes *or* Chords
+        0	Grace Notes
+        4	Tuplets
+      14	Rests (includes bar rests)
+        4	Hidden Objects
+        0	Hairpins
+        0	Highlights
+      15	Slurs
+        5	Other Lines
+        0	Expression Text
+        0	Technique Text
+        6	Other Staff Text
+        0	Tempo Text
+        0	Metronome Marks
+        4	Other System Text
+        0	Lyrics
+        0	Legacy Chord Symbols
+        0	Chord Symbols
+        0	Key Signature Changes
+        3	Time Signature Changes
+        0	Clef Changes
+        0	Rehearsal Marks
+        0	Bar Number Changes
+        0	Instrument Changes
+        0	Symbols
+        0	Graphics
+        2	Special Barlines
+        0	Other Objects
+ 
+Other Staff Text By Style
+        1	Boxed text
+        5	Roman numerals
+
+Other System Text By Style
+        2	Instrument name at top left
+        2	Header (after first page)
+
+Other Lines By Style
+        1	Line
+        4	Vertical line
+
+ 
+*** Calculate Statistics: Count of objects in score:  /Volumes/Dokumenter/Dropbox/Noter/Sibelius/Star Trek/schenker.sib ***
+ 
+        3	Pages
+        7	Systems
+        4	Staves
+      60	Bars per Staff
+    240	Bars in All Staves
+    238	Empty Bars (No Notes)
+        0	Non-Bar-Rest Empty Bars
+        2	Bars Containing Notes
+        0	Irregular Bars
+        3	Total Noteheads
+        3	Single Notes
+        0	Chords
+        3	Single Notes *or* Chords
+        0	Grace Notes
+        0	Tuplets
+    239	Rests (includes bar rests)
+        2	Hidden Objects
+        0	Hairpins
+        0	Highlights
+        0	Slurs
+        1	Other Lines
+        0	Expression Text
+        0	Technique Text
+        0	Other Staff Text
+        0	Tempo Text
+        0	Metronome Marks
+        2	Other System Text
+        0	Lyrics
+        0	Legacy Chord Symbols
+        0	Chord Symbols
+        0	Key Signature Changes
+        1	Time Signature Changes
+        0	Clef Changes
+        0	Rehearsal Marks
+        0	Bar Number Changes
+        0	Instrument Changes
+        0	Symbols
+        0	Graphics
+        1	Special Barlines
+        0	Other Objects
+ 
+Other System Text By Style
+        1	Instrument name at top left
+        1	Header (after first page)
+
+Other Lines By Style
+        1	Vertical line
+
+ 
+*** Calculate Statistics: Count of objects in score:  /Volumes/Dokumenter/Dropbox/Noter/Sibelius/Star Trek/ST 1 1 Overtyre.sib ***
+ 
+        3	Pages
+        9	Systems
+        9	Staves
+      40	Bars per Staff
+    360	Bars in All Staves
+    223	Empty Bars (No Notes)
+        3	Non-Bar-Rest Empty Bars
+    137	Bars Containing Notes
+        0	Irregular Bars
+    388	Total Noteheads
+    369	Single Notes
+        5	Chords
+    374	Single Notes *or* Chords
+        0	Grace Notes
+        1	Tuplets
+    235	Rests (includes bar rests)
+        3	Hidden Objects
+        0	Hairpins
+        0	Highlights
+        1	Slurs
+        3	Other Lines
+        3	Expression Text
+        0	Technique Text
+      43	Other Staff Text
+        0	Tempo Text
+        0	Metronome Marks
+      12	Other System Text
+      37	Lyrics
+        0	Legacy Chord Symbols
+      38	Chord Symbols
+        0	Key Signature Changes
+        1	Time Signature Changes
+        0	Clef Changes
+        0	Rehearsal Marks
+        0	Bar Number Changes
+        0	Instrument Changes
+        1	Symbols
+        0	Graphics
+        6	Special Barlines
+        0	Other Objects
+ 
+Other Staff Text By Style
+        4	Boxed text
+      39	Roman numerals
+
+Other System Text By Style
+        1	Instrument name at top left
+        1	Header (after first page)
+        6	Rehearsal marks
+        1	Composer
+        1	Subtitle
+        1	Dedication
+        1	Title
+
+Other Lines By Style
+        3	Arpeggio
+
+ 
+*** Calculate Statistics: Count of objects in score:  /Volumes/Dokumenter/Dropbox/Noter/Sibelius/Star Trek/ST 1 2 Main Title.sib ***
+ 
+        9	Pages
+      18	Systems
+        8	Staves
+      38	Bars per Staff
+    304	Bars in All Staves
+      85	Empty Bars (No Notes)
+        5	Non-Bar-Rest Empty Bars
+    219	Bars Containing Notes
+        1	Irregular Bars
+  1692	Total Noteheads
+    835	Single Notes
+    308	Chords
+  1143	Single Notes *or* Chords
+        0	Grace Notes
+    166	Tuplets
+    273	Rests (includes bar rests)
+        6	Hidden Objects
+        0	Hairpins
+        0	Highlights
+        8	Slurs
+        4	Other Lines
+        0	Expression Text
+      15	Technique Text
+    108	Other Staff Text
+        1	Tempo Text
+        0	Metronome Marks
+      16	Other System Text
+      89	Lyrics
+        0	Legacy Chord Symbols
+      93	Chord Symbols
+        0	Key Signature Changes
+        1	Time Signature Changes
+        0	Clef Changes
+        0	Rehearsal Marks
+        1	Bar Number Changes
+        0	Instrument Changes
+        0	Symbols
+        0	Graphics
+        9	Special Barlines
+        0	Other Objects
+ 
+Other Staff Text By Style
+      18	Boxed text
+      89	Roman numerals
+        1	Small text
+
+Other System Text By Style
+        1	Instrument name at top left
+        1	Header (after first page)
+        1	Title
+        1	Composer
+        1	Subtitle
+        1	Dedication
+        9	Rehearsal marks
+        1	Musical structure
+
+Other Lines By Style
+        1	Repeat ending (open)
+        3	Bracket above
+
+ 
+*** Calculate Statistics: Count of objects in score:  /Volumes/Dokumenter/Dropbox/Noter/Sibelius/Star Trek/ST 1 4 Leaving Dry dock.sib ***
+ 
+        4	Pages
+      31	Systems
+        2	Staves
+    121	Bars per Staff
+    242	Bars in All Staves
+        9	Empty Bars (No Notes)
+        0	Non-Bar-Rest Empty Bars
+    235	Bars Containing Notes
+        0	Irregular Bars
+    762	Total Noteheads
+    731	Single Notes
+      11	Chords
+    742	Single Notes *or* Chords
+        0	Grace Notes
+        1	Tuplets
+      33	Rests (includes bar rests)
+        3	Hidden Objects
+        0	Hairpins
+        0	Highlights
+        0	Slurs
+        0	Other Lines
+        2	Expression Text
+        0	Technique Text
+        0	Other Staff Text
+        0	Tempo Text
+        1	Metronome Marks
+        6	Other System Text
+        0	Lyrics
+        0	Legacy Chord Symbols
+    122	Chord Symbols
+        0	Key Signature Changes
+      13	Time Signature Changes
+        0	Clef Changes
+      15	Rehearsal Marks
+        0	Bar Number Changes
+        0	Instrument Changes
+        0	Symbols
+        0	Graphics
+      14	Special Barlines
+        0	Other Objects
+ 
+Other System Text By Style
+        1	Title
+        1	Instrument name at top left
+        1	Header (after first page)
+        1	Dedication
+        1	Subtitle
+        1	Composer
+
+ 
+*** Calculate Statistics: Count of objects in score:  /Volumes/Dokumenter/Dropbox/Noter/Sibelius/Star Trek/ST 10 1 Remus.sib ***
+ 
+        6	Pages
+        9	Systems
+      10	Staves
+      40	Bars per Staff
+    400	Bars in All Staves
+    210	Empty Bars (No Notes)
+        0	Non-Bar-Rest Empty Bars
+    190	Bars Containing Notes
+        0	Irregular Bars
+    690	Total Noteheads
+    436	Single Notes
+    108	Chords
+    544	Single Notes *or* Chords
+        0	Grace Notes
+        8	Tuplets
+    273	Rests (includes bar rests)
+        8	Hidden Objects
+        1	Hairpins
+        0	Highlights
+        1	Slurs
+        1	Other Lines
+        9	Expression Text
+        0	Technique Text
+        0	Other Staff Text
+        0	Tempo Text
+        3	Metronome Marks
+        6	Other System Text
+        0	Lyrics
+        0	Legacy Chord Symbols
+        7	Chord Symbols
+        0	Key Signature Changes
+        3	Time Signature Changes
+        1	Clef Changes
+        1	Rehearsal Marks
+        0	Bar Number Changes
+        0	Instrument Changes
+        0	Symbols
+        0	Graphics
+        9	Special Barlines
+        0	Other Objects
+ 
+Other System Text By Style
+        1	Title
+        1	Instrument name at top left
+        1	Header (after first page)
+        1	Dedication
+        1	Composer
+        1	Subtitle
+
+Other Lines By Style
+        1	Octave up
+
+ 
+*** Calculate Statistics: Count of objects in score:  /Volumes/Dokumenter/Dropbox/Noter/Sibelius/Star Trek/ST 10 2 Attack Pattern.sib ***
+ 
+        2	Pages
+      12	Systems
+        2	Staves
+      38	Bars per Staff
+      76	Bars in All Staves
+      24	Empty Bars (No Notes)
+        0	Non-Bar-Rest Empty Bars
+      52	Bars Containing Notes
+        0	Irregular Bars
+    513	Total Noteheads
+    201	Single Notes
+    156	Chords
+    357	Single Notes *or* Chords
+        0	Grace Notes
+        9	Tuplets
+      55	Rests (includes bar rests)
+        2	Hidden Objects
+        1	Hairpins
+        0	Highlights
+        0	Slurs
+        3	Other Lines
+        7	Expression Text
+        0	Technique Text
+        0	Other Staff Text
+        0	Tempo Text
+        1	Metronome Marks
+        6	Other System Text
+        0	Lyrics
+        0	Legacy Chord Symbols
+      11	Chord Symbols
+        0	Key Signature Changes
+      17	Time Signature Changes
+        0	Clef Changes
+        6	Rehearsal Marks
+        0	Bar Number Changes
+        0	Instrument Changes
+        0	Symbols
+        0	Graphics
+      10	Special Barlines
+        0	Other Objects
+ 
+Other System Text By Style
+        1	Instrument name at top left
+        1	Header (after first page)
+        1	Composer
+        1	Subtitle
+        1	Dedication
+        1	Title
+
+Other Lines By Style
+        3	Bracket above
+
+ 
+*** Calculate Statistics: Count of objects in score:  /Volumes/Dokumenter/Dropbox/Noter/Sibelius/Star Trek/ST 11 1 Main Title.sib ***
+ 
+        2	Pages
+        4	Systems
+        9	Staves
+      25	Bars per Staff
+    225	Bars in All Staves
+    158	Empty Bars (No Notes)
+        1	Non-Bar-Rest Empty Bars
+      67	Bars Containing Notes
+        0	Irregular Bars
+    202	Total Noteheads
+    202	Single Notes
+        0	Chords
+    202	Single Notes *or* Chords
+        0	Grace Notes
+        6	Tuplets
+    161	Rests (includes bar rests)
+        6	Hidden Objects
+        0	Hairpins
+        0	Highlights
+        0	Slurs
+        1	Other Lines
+        6	Expression Text
+        0	Technique Text
+        0	Other Staff Text
+        0	Tempo Text
+        2	Metronome Marks
+        6	Other System Text
+        9	Lyrics
+        0	Legacy Chord Symbols
+        9	Chord Symbols
+        0	Key Signature Changes
+        2	Time Signature Changes
+        0	Clef Changes
+        0	Rehearsal Marks
+        0	Bar Number Changes
+        0	Instrument Changes
+        0	Symbols
+        0	Graphics
+        6	Special Barlines
+        0	Other Objects
+ 
+Other System Text By Style
+        1	Title
+        1	Instrument name at top left
+        1	Header (after first page)
+        1	Composer
+        1	Subtitle
+        1	Dedication
+
+Other Lines By Style
+        1	Glissando (straight)
+
+ 
+*** Calculate Statistics: Count of objects in score:  /Volumes/Dokumenter/Dropbox/Noter/Sibelius/Star Trek/ST 11 13 hangar management.sib ***
+ 
+        2	Pages
+      15	Systems
+        1	Staves
+      56	Bars per Staff
+      56	Bars in All Staves
+        0	Empty Bars (No Notes)
+        0	Non-Bar-Rest Empty Bars
+      56	Bars Containing Notes
+        0	Irregular Bars
+    288	Total Noteheads
+    210	Single Notes
+      39	Chords
+    249	Single Notes *or* Chords
+        0	Grace Notes
+        6	Tuplets
+      29	Rests (includes bar rests)
+        2	Hidden Objects
+        0	Hairpins
+        0	Highlights
+        0	Slurs
+        0	Other Lines
+        0	Expression Text
+        0	Technique Text
+        0	Other Staff Text
+        0	Tempo Text
+        1	Metronome Marks
+        6	Other System Text
+        0	Lyrics
+        0	Legacy Chord Symbols
+      33	Chord Symbols
+        0	Key Signature Changes
+        1	Time Signature Changes
+        0	Clef Changes
+        5	Rehearsal Marks
+        0	Bar Number Changes
+        0	Instrument Changes
+        0	Symbols
+        0	Graphics
+        7	Special Barlines
+        0	Other Objects
+ 
+Other System Text By Style
+        1	Title
+        1	Instrument name at top left
+        1	Header (after first page)
+        3	Metric modulation
+
+ 
+*** Calculate Statistics: Count of objects in score:  /Volumes/Dokumenter/Dropbox/Noter/Sibelius/Star Trek/ST 11 2 Main Title 2.sib ***
+ 
+        1	Pages
+        8	Systems
+        1	Staves
+      31	Bars per Staff
+      31	Bars in All Staves
+        0	Empty Bars (No Notes)
+        0	Non-Bar-Rest Empty Bars
+      31	Bars Containing Notes
+        0	Irregular Bars
+    140	Total Noteheads
+    140	Single Notes
+        0	Chords
+    140	Single Notes *or* Chords
+        0	Grace Notes
+        0	Tuplets
+        5	Rests (includes bar rests)
+        2	Hidden Objects
+        0	Hairpins
+        0	Highlights
+        0	Slurs
+        0	Other Lines
+        2	Expression Text
+        0	Technique Text
+        0	Other Staff Text
+        0	Tempo Text
+        1	Metronome Marks
+        6	Other System Text
+        6	Lyrics
+        0	Legacy Chord Symbols
+      12	Chord Symbols
+        0	Key Signature Changes
+        2	Time Signature Changes
+        0	Clef Changes
+        0	Rehearsal Marks
+        0	Bar Number Changes
+        0	Instrument Changes
+        0	Symbols
+        0	Graphics
+        3	Special Barlines
+        0	Other Objects
+ 
+Other System Text By Style
+        1	Title
+        1	Instrument name at top left
+        1	Header (after first page)
+        1	Subtitle
+        1	Composer
+        1	Dedication
+
+ 
+*** Calculate Statistics: Count of objects in score:  /Volumes/Dokumenter/Dropbox/Noter/Sibelius/Star Trek/ST 11 3 beam me up.sib ***
+ 
+        2	Pages
+        8	Systems
+        1	Staves
+      31	Bars per Staff
+      31	Bars in All Staves
+        0	Empty Bars (No Notes)
+        0	Non-Bar-Rest Empty Bars
+      31	Bars Containing Notes
+        0	Irregular Bars
+      48	Total Noteheads
+      48	Single Notes
+        0	Chords
+      48	Single Notes *or* Chords
+        0	Grace Notes
+        0	Tuplets
+        0	Rests (includes bar rests)
+        2	Hidden Objects
+        0	Hairpins
+        0	Highlights
+        0	Slurs
+        0	Other Lines
+        0	Expression Text
+        0	Technique Text
+        0	Other Staff Text
+        0	Tempo Text
+        1	Metronome Marks
+        3	Other System Text
+        0	Lyrics
+        0	Legacy Chord Symbols
+      16	Chord Symbols
+        0	Key Signature Changes
+        1	Time Signature Changes
+        0	Clef Changes
+        0	Rehearsal Marks
+        0	Bar Number Changes
+        0	Instrument Changes
+        0	Symbols
+        0	Graphics
+        3	Special Barlines
+        0	Other Objects
+ 
+Other System Text By Style
+        1	Title
+        1	Instrument name at top left
+        1	Header (after first page)
+
+ 
+*** Calculate Statistics: Count of objects in score:  /Volumes/Dokumenter/Dropbox/Noter/Sibelius/Star Trek/ST 12 London Falling.sib ***
+ 
+        3	Pages
+      30	Systems
+        2	Staves
+    128	Bars per Staff
+    256	Bars in All Staves
+    128	Empty Bars (No Notes)
+        0	Non-Bar-Rest Empty Bars
+    128	Bars Containing Notes
+        0	Irregular Bars
+    415	Total Noteheads
+    367	Single Notes
+      20	Chords
+    387	Single Notes *or* Chords
+        0	Grace Notes
+        3	Tuplets
+    131	Rests (includes bar rests)
+        2	Hidden Objects
+        0	Hairpins
+        0	Highlights
+        0	Slurs
+        2	Other Lines
+      15	Expression Text
+        0	Technique Text
+        2	Other Staff Text
+        0	Tempo Text
+        1	Metronome Marks
+      12	Other System Text
+        0	Lyrics
+        0	Legacy Chord Symbols
+      30	Chord Symbols
+        0	Key Signature Changes
+        3	Time Signature Changes
+        0	Clef Changes
+        1	Rehearsal Marks
+        0	Bar Number Changes
+        0	Instrument Changes
+        0	Symbols
+        0	Graphics
+      11	Special Barlines
+        0	Other Objects
+ 
+Other Staff Text By Style
+        2	Small text
+
+Other System Text By Style
+        6	Rehearsal marks
+        1	Instrument name at top left
+        1	Header (after first page)
+        1	Composer
+        1	Subtitle
+        1	Dedication
+        1	Title
+
+Other Lines By Style
+        2	Bracket above
+
+ 
+*** Calculate Statistics: Count of objects in score:  /Volumes/Dokumenter/Dropbox/Noter/Sibelius/Star Trek/ST 12 Main Title.sib ***
+ 
+        3	Pages
+        5	Systems
+        9	Staves
+      24	Bars per Staff
+    216	Bars in All Staves
+    122	Empty Bars (No Notes)
+        0	Non-Bar-Rest Empty Bars
+      94	Bars Containing Notes
+        0	Irregular Bars
+    265	Total Noteheads
+    209	Single Notes
+      28	Chords
+    237	Single Notes *or* Chords
+        0	Grace Notes
+        6	Tuplets
+    122	Rests (includes bar rests)
+        2	Hidden Objects
+        6	Hairpins
+        0	Highlights
+        0	Slurs
+        1	Other Lines
+        9	Expression Text
+        0	Technique Text
+        1	Other Staff Text
+        0	Tempo Text
+        2	Metronome Marks
+        6	Other System Text
+        9	Lyrics
+        0	Legacy Chord Symbols
+        9	Chord Symbols
+        0	Key Signature Changes
+        2	Time Signature Changes
+        2	Clef Changes
+        0	Rehearsal Marks
+        0	Bar Number Changes
+        0	Instrument Changes
+        0	Symbols
+        0	Graphics
+        2	Special Barlines
+        0	Other Objects
+ 
+Other Staff Text By Style
+        1	Small text
+
+Other System Text By Style
+        1	Title
+        1	Instrument name at top left
+        1	Header (after first page)
+        1	Subtitle
+        1	Dedication
+        1	Composer
+
+Other Lines By Style
+        1	Repeat ending (open)
+
+ 
+*** Calculate Statistics: Count of objects in score:  /Volumes/Dokumenter/Dropbox/Noter/Sibelius/Star Trek/ST 2 1 Main Title.sib ***
+ 
+        7	Pages
+      23	Systems
+      11	Staves
+      68	Bars per Staff
+    748	Bars in All Staves
+    495	Empty Bars (No Notes)
+        2	Non-Bar-Rest Empty Bars
+    253	Bars Containing Notes
+        0	Irregular Bars
+  1431	Total Noteheads
+  1006	Single Notes
+    184	Chords
+  1190	Single Notes *or* Chords
+        0	Grace Notes
+      95	Tuplets
+    530	Rests (includes bar rests)
+        4	Hidden Objects
+        0	Hairpins
+        0	Highlights
+        0	Slurs
+        4	Other Lines
+        3	Expression Text
+        0	Technique Text
+        0	Other Staff Text
+        0	Tempo Text
+        1	Metronome Marks
+        9	Other System Text
+      72	Lyrics
+        0	Legacy Chord Symbols
+      75	Chord Symbols
+        0	Key Signature Changes
+      11	Time Signature Changes
+        0	Clef Changes
+        5	Rehearsal Marks
+        0	Bar Number Changes
+        0	Instrument Changes
+        0	Symbols
+        0	Graphics
+        9	Special Barlines
+        0	Other Objects
+ 
+Other System Text By Style
+        1	Title
+        1	Instrument name at top left
+        1	Header (after first page)
+        1	Composer
+        1	Dedication
+        1	Subtitle
+        3	Rehearsal marks
+
+Other Lines By Style
+        3	Trill (flat)
+        1	Trill
+
+ 
+*** Calculate Statistics: Count of objects in score:  /Volumes/Dokumenter/Dropbox/Noter/Sibelius/Star Trek/ST 2 2 Enterprise Clears Moorings.sib ***
+ 
+        2	Pages
+      19	Systems
+        1	Staves
+      85	Bars per Staff
+      85	Bars in All Staves
+        2	Empty Bars (No Notes)
+        0	Non-Bar-Rest Empty Bars
+      85	Bars Containing Notes
+        0	Irregular Bars
+    698	Total Noteheads
+    490	Single Notes
+      86	Chords
+    576	Single Notes *or* Chords
+        0	Grace Notes
+      86	Tuplets
+      23	Rests (includes bar rests)
+        9	Hidden Objects
+        1	Hairpins
+        0	Highlights
+        0	Slurs
+        5	Other Lines
+        2	Expression Text
+        0	Technique Text
+        1	Other Staff Text
+        0	Tempo Text
+        2	Metronome Marks
+        6	Other System Text
+      69	Lyrics
+        0	Legacy Chord Symbols
+      76	Chord Symbols
+        0	Key Signature Changes
+      23	Time Signature Changes
+        0	Clef Changes
+      11	Rehearsal Marks
+        0	Bar Number Changes
+        0	Instrument Changes
+        0	Symbols
+        0	Graphics
+      10	Special Barlines
+        0	Other Objects
+ 
+Other Staff Text By Style
+        1	Small text
+
+Other System Text By Style
+        1	Title
+        1	Subtitle
+        1	Instrument name at top left
+        1	Header (after first page)
+        1	Dedication
+        1	Composer
+
+Other Lines By Style
+        1	Repeat ending (closed)
+        3	Octave up
+        1	Trill
+
+ 
+*** Calculate Statistics: Count of objects in score:  /Volumes/Dokumenter/Dropbox/Noter/Sibelius/Star Trek/ST 2 3 Enterprise Attacks Reliant.sib ***
+ 
+        1	Pages
+      12	Systems
+        1	Staves
+      47	Bars per Staff
+      47	Bars in All Staves
+        0	Empty Bars (No Notes)
+        0	Non-Bar-Rest Empty Bars
+      47	Bars Containing Notes
+        0	Irregular Bars
+    332	Total Noteheads
+    191	Single Notes
+      61	Chords
+    252	Single Notes *or* Chords
+      12	Grace Notes
+        8	Tuplets
+      17	Rests (includes bar rests)
+        9	Hidden Objects
+        0	Hairpins
+        0	Highlights
+        0	Slurs
+        0	Other Lines
+        6	Expression Text
+        0	Technique Text
+        0	Other Staff Text
+        0	Tempo Text
+        1	Metronome Marks
+        3	Other System Text
+      22	Lyrics
+        0	Legacy Chord Symbols
+      23	Chord Symbols
+        0	Key Signature Changes
+      10	Time Signature Changes
+        0	Clef Changes
+        0	Rehearsal Marks
+        0	Bar Number Changes
+        0	Instrument Changes
+        0	Symbols
+        0	Graphics
+        3	Special Barlines
+        0	Other Objects
+ 
+Other System Text By Style
+        1	Title
+        1	Instrument name at top left
+        1	Header (after first page)
+
+ 
+*** Calculate Statistics: Count of objects in score:  /Volumes/Dokumenter/Dropbox/Noter/Sibelius/Star Trek/ST 2 X Battle in Mutara.sib ***
+ 
+        2	Pages
+      21	Systems
+        1	Staves
+      79	Bars per Staff
+      79	Bars in All Staves
+      51	Empty Bars (No Notes)
+        0	Non-Bar-Rest Empty Bars
+      28	Bars Containing Notes
+        0	Irregular Bars
+    441	Total Noteheads
+    126	Single Notes
+    107	Chords
+    233	Single Notes *or* Chords
+        0	Grace Notes
+        8	Tuplets
+      70	Rests (includes bar rests)
+        2	Hidden Objects
+        0	Hairpins
+        0	Highlights
+        0	Slurs
+        0	Other Lines
+        0	Expression Text
+        0	Technique Text
+        0	Other Staff Text
+        0	Tempo Text
+        1	Metronome Marks
+        3	Other System Text
+        0	Lyrics
+        0	Legacy Chord Symbols
+        0	Chord Symbols
+        0	Key Signature Changes
+        7	Time Signature Changes
+        0	Clef Changes
+        0	Rehearsal Marks
+        0	Bar Number Changes
+        0	Instrument Changes
+        0	Symbols
+        0	Graphics
+        6	Special Barlines
+        0	Other Objects
+ 
+Other System Text By Style
+        1	Title
+        1	Instrument name at top left
+        1	Header (after first page)
+
+ 
+*** Calculate Statistics: Count of objects in score:  /Volumes/Dokumenter/Dropbox/Noter/Sibelius/Star Trek/ST 8 1 Main Title.sib ***
+ 
+        4	Pages
+      12	Systems
+      10	Staves
+      57	Bars per Staff
+    570	Bars in All Staves
+    420	Empty Bars (No Notes)
+        0	Non-Bar-Rest Empty Bars
+    150	Bars Containing Notes
+        0	Irregular Bars
+    567	Total Noteheads
+    375	Single Notes
+      82	Chords
+    457	Single Notes *or* Chords
+        0	Grace Notes
+        9	Tuplets
+    450	Rests (includes bar rests)
+        7	Hidden Objects
+        2	Hairpins
+        0	Highlights
+        0	Slurs
+        0	Other Lines
+        1	Expression Text
+      13	Technique Text
+      57	Other Staff Text
+        0	Tempo Text
+        1	Metronome Marks
+        7	Other System Text
+        7	Lyrics
+        0	Legacy Chord Symbols
+      67	Chord Symbols
+        0	Key Signature Changes
+        4	Time Signature Changes
+        0	Clef Changes
+        5	Rehearsal Marks
+        0	Bar Number Changes
+        0	Instrument Changes
+        0	Symbols
+        0	Graphics
+      11	Special Barlines
+        0	Other Objects
+ 
+Other Staff Text By Style
+      57	Roman numerals
+
+Other System Text By Style
+        1	Instrument name at top left
+        1	Header (after first page)
+        1	Subtitle
+        1	Title
+        1	Dedication
+        1	Composer
+        1	Rehearsal marks
+
+ 
+*** Calculate Statistics: Count of objects in score:  /Volumes/Dokumenter/Dropbox/Noter/Sibelius/Star Trek/ST 8 2 Red Alert.sib ***
+ 
+        2	Pages
+      13	Systems
+        1	Staves
+      53	Bars per Staff
+      53	Bars in All Staves
+        3	Empty Bars (No Notes)
+        0	Non-Bar-Rest Empty Bars
+      50	Bars Containing Notes
+        0	Irregular Bars
+    231	Total Noteheads
+    161	Single Notes
+      26	Chords
+    187	Single Notes *or* Chords
+        2	Grace Notes
+        6	Tuplets
+      13	Rests (includes bar rests)
+        2	Hidden Objects
+        0	Hairpins
+        0	Highlights
+        0	Slurs
+        0	Other Lines
+        0	Expression Text
+        0	Technique Text
+        0	Other Staff Text
+        0	Tempo Text
+        1	Metronome Marks
+        3	Other System Text
+        0	Lyrics
+        0	Legacy Chord Symbols
+      26	Chord Symbols
+        0	Key Signature Changes
+      11	Time Signature Changes
+        0	Clef Changes
+        8	Rehearsal Marks
+        0	Bar Number Changes
+        0	Instrument Changes
+        0	Symbols
+        0	Graphics
+        6	Special Barlines
+        0	Other Objects
+ 
+Other System Text By Style
+        1	Title
+        1	Instrument name at top left
+        1	Header (after first page)
+
+ 
+*** Calculate Statistics: Grand Totals: count of objects in: 24 scores in folder: /Volumes/Dokumenter/Dropbox/Noter/Sibelius/Star Trek/ ***
+ 
+      64	Pages
+    270	Systems
+      95	Staves
+  1095	Bars per Staff
+  4105	Bars in All Staves
+  2178	Empty Bars (No Notes)
+      11	Non-Bar-Rest Empty Bars
+  1931	Bars Containing Notes
+        1	Irregular Bars
+  9366	Total Noteheads
+  6258	Single Notes
+  1255	Chords
+  7513	Single Notes *or* Chords
+      14	Grace Notes
+    423	Tuplets
+  2696	Rests (includes bar rests)
+      90	Hidden Objects
+      11	Hairpins
+        0	Highlights
+      26	Slurs
+      42	Other Lines
+      66	Expression Text
+      42	Technique Text
+    254	Other Staff Text
+        1	Tempo Text
+      20	Metronome Marks
+    139	Other System Text
+    327	Lyrics
+        0	Legacy Chord Symbols
+    709	Chord Symbols
+        0	Key Signature Changes
+    119	Time Signature Changes
+        3	Clef Changes
+      57	Rehearsal Marks
+        1	Bar Number Changes
+        0	Instrument Changes
+        1	Symbols
+        0	Graphics
+    140	Special Barlines
+        0	Other Objects
+ 
+ 
