@@ -1,9 +1,10 @@
 %% Reviewed 7 march 2016
 %% Compatible with TexLive 2015/2016
+%% Running test on new macbook with TexLive 2016, december 2019
 %----------------------------------------------------------------------------------------
 % PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
-\documentclass[a4paper,sfsidenotes,notitlepage,justified,nobib]{tufte-book}
+\documentclass[a4paper,sfsidenotes,notitlepage,justified,nobib,openany]{tufte-book}
 
 %% Backend
 \usepackage{fontspec}
@@ -13,9 +14,9 @@
     \graphicspath{{gfx/}}
 
 %% Commands for cites to work with biblatex
-% \usepackage{hyperref}
+\usepackage{hyperref}
 % \hypersetup{colorlinks}
-% \usepackage{hyphenat}
+\usepackage{hyphenat}
 
 %% Table stuff
 \usepackage{booktabs} % Better horizontal rules in tables
@@ -23,7 +24,7 @@
 \usepackage{multirow} % multiple rows and columns
 
 %% Typography
-\usepackage{microtype} % Improves character and word spacing.
+\usepackage[final]{microtype} % Improves character and word spacing.
 \usepackage{xspace} % Used for printing a trailing space better than using a tilde (~) using the \xspace command
 
 %% Music
@@ -50,7 +51,7 @@
 % \usepackage{lipsum} % Inserts dummy text
 % \usepackage{scrtime} % Prints the time with \thistime
 % \usepackage[firstpage]{draftwatermark}
-% \usepackage[printonlyused]{acronym}
+\usepackage[printonlyused]{acronym}
 % \usepackage{makeidx} % Used to generate the index
 % \makeindex % Generate the index which is printed at the end of the document
 
@@ -145,17 +146,20 @@
 %----------------------------------------------------------------------------------------
 % \includepdf{pdf/Forside.pdf}
 % \blankpage
+
 \include{FrontBackmatter/title}
-\include{FrontBackmatter/copyright}
-\include{FrontBackmatter/abstract}
-\include{FrontBackmatter/orthography_and_examples}
-% {\hypersetup{linkcolor=black}
-% \tableofcontents \thispagestyle{empty}
-% \listoffigures
-% \listoftables}
-\include{FrontBackmatter/acronyms}
-\include{FrontBackmatter/acknowledgments}
-\cleardoublepage\include{FrontBackmatter/tea}
+\include{FrontBackmatter/copyright} \let\cleardoublepage\clearpage
+{\hypersetup{linkcolor=black}
+\tableofcontents \thispagestyle{empty}
+\listoffigures
+\listoftables
+\let\cleardoublepage\clearpage
+}
+\include{FrontBackmatter/abstract} \let\cleardoublepage\clearpage
+\include{FrontBackmatter/orthography_and_examples} \let\cleardoublepage\clearpage
+\include{FrontBackmatter/acronyms} \let\cleardoublepage\clearpage
+\include{FrontBackmatter/acknowledgments} \let\cleardoublepage\clearpage
+\include{FrontBackmatter/tea} \let\cleardoublepage\clearpage 
 %----------------------------------------------------------------------------------------
 %   Part 1
 %----------------------------------------------------------------------------------------
