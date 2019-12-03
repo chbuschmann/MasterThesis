@@ -13,9 +13,9 @@
     \graphicspath{{gfx/}}
 
 %% Commands for cites to work with biblatex
-\usepackage{hyperref}
+% \usepackage{hyperref}
 % \hypersetup{colorlinks}
-\usepackage{hyphenat}
+% \usepackage{hyphenat}
 
 %% Table stuff
 \usepackage{booktabs} % Better horizontal rules in tables
@@ -47,8 +47,8 @@
 \usepackage{mathtools}
 
 %% Utilities
-\usepackage{lipsum} % Inserts dummy text
-\usepackage{scrtime} % Prints the time with \thistime
+% \usepackage{lipsum} % Inserts dummy text
+% \usepackage{scrtime} % Prints the time with \thistime
 % \usepackage[firstpage]{draftwatermark}
 \usepackage[printonlyused]{acronym}
 % \usepackage{makeidx} % Used to generate the index
@@ -94,6 +94,8 @@
 \renewcommand{\smallcaps}[1]{\smallcapsspacing{\scshape\MakeTextLowercase{#1}}}
 
 \newcommand{\blankpage}{\newpage\hbox{}\thispagestyle{empty}\newpage} % Command to insert a blank page
+
+%% Music
 
 \newcommand{\tinysharpx}[1][0.10ex]{\hspace*{#1}\sharp[scale=.65,raise=.1]\hspace*{#1}}
 \newcommand{\tinyflatx}[1][0.10ex]{\hspace*{#1}\flat[scale=.6,raise=.1]\hspace*{#1}}
@@ -147,10 +149,10 @@
 \include{FrontBackmatter/copyright}
 \include{FrontBackmatter/abstract}
 \include{FrontBackmatter/orthography_and_examples}
-{\hypersetup{linkcolor=black}
-\tableofcontents \thispagestyle{empty}
-\listoffigures
-\listoftables}
+% {\hypersetup{linkcolor=black}
+% \tableofcontents \thispagestyle{empty}
+% \listoffigures
+% \listoftables}
 \include{FrontBackmatter/acronyms}
 \include{FrontBackmatter/acknowledgments}
 \cleardoublepage\include{FrontBackmatter/tea}
