@@ -5,3 +5,6 @@ The music of science fiction. Why did it become to sound the way it does and how
 The code is provided as part of the creative commons licence that follows this works. 
 
 This thesis was typeset with LaTeX. The design is based on the Tufte-LaTeX book class available at https://github.com/Tufte-LaTeX/tufte-latex. The main font is Palatino. In addition Helvetica and Bera Mono are used. I use the lilyglyps package for musical symbols and the xpiano package for keyboard illustrations. The diagrams was made using Apple's Keynote and the music was engraved with Sibelius 7.5.
+
+Contact:
+chbuschmann@mac.com
